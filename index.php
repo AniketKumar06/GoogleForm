@@ -8,6 +8,8 @@
 </head>
 
 <body>
+    <!-- Logic for inserting data to database -->
+
     <div class="container">
         <div class="header">
             <h1>
@@ -16,9 +18,9 @@
         </div>
         <!-- form -->
         <div class="form">
-            <form action="" class="formdetail">
+            <form action="insert.php" class="formdetail" method="post">
                 <label for="firstName">FirstName :</label>
-                <input type="text" name="firstName"><br><br />
+                <input type="text" name="firstname"><br><br />
                 <label for="lastname">LastName :</label>
                 <input type="text" name="lastname"><br><br />
                 <label for="email">Email:</label>
@@ -34,7 +36,7 @@
                 <label for="female">Female</label>
                 <input type="radio" name="gender" value="other">
                 <label for="other">Other</label><br /><br />
-                <button type="submit">Submit</button>
+                <button type="submit" value="submit">Submit</button>
             </form>
         </div>
     </div>
